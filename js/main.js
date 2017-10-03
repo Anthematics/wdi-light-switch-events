@@ -1,6 +1,8 @@
 
-document.querySelector('.switch').addEventListener("click",haveclicked);
+document.querySelector('.switch').addEventListener('click',haveclicked);
 
 function haveclicked() {
-	console.log("you have clicked the switch");
+ let light = document.querySelector('.switch');
+ light.classList.toggle('on');
+ light.classList.toggle('off');
 }
